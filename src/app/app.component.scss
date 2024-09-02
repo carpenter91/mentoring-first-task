@@ -1,0 +1,165 @@
+a{
+    text-decoration:none;
+    color: #000;
+}
+
+.header{
+    display: flex;
+    height: 80px; 
+    background-color: #4B565E;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 240px;
+    font-family: Arial;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.header-nav-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 40px;
+}
+
+.header-nav-item-right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 40px;
+}
+
+.header-logo{
+    margin-right: 20px;
+}
+
+.top-bar{
+    background-color: #F0BA4E;
+    height: 48px;
+    font-family: Arial;
+}
+
+.nav-bar-icon{
+    width: 28px;
+    height: 28px;
+}
+
+.cart-button{
+    display: flex;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 240px;
+    align-items: center;
+}
+
+.top-bar-left{
+    display: flex;   
+}
+
+.top-bar-right{
+    display: flex;
+    gap: 20px;   
+}
+
+.top-bar-menu{
+    display: flex;
+    gap: 20px;
+    list-style:none;
+}
+
+.catalogue{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-box{
+    display: flex;
+    border-width: 0 0 1px 0; /* top right bottom left */
+    border-style: solid;
+    border-color: #4B565E;
+}
+
+.search-bar{
+    width: 260px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.srch-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    font-weight: bolder;
+}
+
+.item-cards__pagination{
+    display: flex;
+}
+
+.item-cards__pagination{
+    display: flex;
+    justify-content: end;
+    gap: 4px;
+}
+
+.item-cards__pagination_button{
+    background-color: transparent;
+    border: none;
+}
+
+.active-button{
+    font-weight: 600;
+    color: #F0BA4E;
+}
+
+.active-button:hover{
+    color: #F0BA4E;
+    cursor: default;
+    background-color: transparent;
+}
+
+.item-cards__pagination_button:hover{
+   
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.banner{
+    width: 100%;
+}
